@@ -8,11 +8,127 @@ app.use(express.json());
 
 // Districts & Villages
 const districts = [
-  { district: "Davanagere", villages: ["Honnali", "Harihar", "Channagiri"] },
-  { district: "Bangalore", villages: ["Whitefield", "Koramangala", "Hebbal"] },
-  { district: "Mysore", villages: ["Nanjangud", "Hunsur", "Krishnaraja"] }
+  {
+    district: "Bagalkot",
+    villages: ["Aihole", "Badami", "Ronihal"]
+  },
+  {
+    district: "Ballari",
+    villages: ["Hospet", "Harapanahalli", "Hagaribommanahalli"]
+  },
+  {
+    district: "Belagavi",
+    villages: ["Chikkodi", "Gokak", "Athani"]
+  },
+  {
+    district: "Bengaluru Rural",
+    villages: ["Devanahalli", "Hoskote", "Nelamangala"]
+  },
+  {
+    district: "Bengaluru Urban",
+    villages: ["Yelahanka", "KR Puram", "Anekal"]
+  },
+  {
+    district: "Bidar",
+    villages: ["Bhalki", "Aurad", "Humnabad"]
+  },
+  {
+    district: "Chamarajanagar",
+    villages: ["Gundlupet", "Kollegal", "Hanur"]
+  },
+  {
+    district: "Chikkaballapur",
+    villages: ["Bagepalli", "Gauribidanur", "Sidlaghatta"]
+  },
+  {
+    district: "Chikkamagaluru",
+    villages: ["Mudigere", "Kadur", "Sringeri"]
+  },
+  {
+    district: "Chitradurga",
+    villages: ["Hosadurga", "Hiriyur", "Molakalmuru"]
+  },
+  {
+    district: "Dakshina Kannada",
+    villages: ["Moodbidri", "Puttur", "Belthangady"]
+  },
+  {
+    district: "Davanagere",
+    villages: ["Harihar", "Jagalur", "Harapanahalli"]
+  },
+  {
+    district: "Dharwad",
+    villages: ["Kalghatgi", "Hubli", "Navalgund"]
+  },
+  {
+    district: "Gadag",
+    villages: ["Ron", "Nargund", "Mundargi"]
+  },
+  {
+    district: "Hassan",
+    villages: ["Arsikere", "Alur", "Belur"]
+  },
+  {
+    district: "Haveri",
+    villages: ["Ranebennur", "Shiggaon", "Byadgi"]
+  },
+  {
+    district: "Kalaburagi",
+    villages: ["Aland", "Sedam", "Chincholi"]
+  },
+  {
+    district: "Kodagu",
+    villages: ["Madikeri", "Virajpet", "Somwarpet"]
+  },
+  {
+    district: "Kolar",
+    villages: ["Bangarapet", "Mulbagal", "Malur"]
+  },
+  {
+    district: "Koppal",
+    villages: ["Gangavati", "Kushtagi", "Yelburga"]
+  },
+  {
+    district: "Mandya",
+    villages: ["Srirangapatna", "Pandavapura", "Nagamangala"]
+  },
+  {
+    district: "Mysuru",
+    villages: ["Nanjangud", "T Narasipura", "Hunsur"]
+  },
+  {
+    district: "Raichur",
+    villages: ["Manvi", "Sindhanur", "Lingasugur"]
+  },
+  {
+    district: "Ramanagara",
+    villages: ["Channapatna", "Magadi", "Kanakapura"]
+  },
+  {
+    district: "Shivamogga",
+    villages: ["Bhadravati", "Thirthahalli", "Shikaripura"]
+  },
+  {
+    district: "Tumakuru",
+    villages: ["Gubbi", "Madhugiri", "Tiptur"]
+  },
+  {
+    district: "Udupi",
+    villages: ["Kundapur", "Karkala", "Udupi Town"]
+  },
+  {
+    district: "Uttara Kannada",
+    villages: ["Karwar", "Sirsi", "Dandeli"]
+  },
+  {
+    district: "Vijayapura",
+    villages: ["Indi", "Sindagi", "Muddebihal"]
+  },
+  {
+    district: "Yadgir",
+    villages: ["Shahapur", "Surpur", "Yadgir Town"]
+  }
 ];
-
 // Crop database
 const cropDatabase = {
   Sandy: [
