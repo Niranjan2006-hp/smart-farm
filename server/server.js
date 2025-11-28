@@ -146,6 +146,12 @@ const cropDatabase = {
     { crop: "Maize", season: "Kharif", expectedYield: "25 quintals", waterPerAcre: 15000, fertilizer: "DAP 45 kg", instructions: "Good drainage needed" },
     { crop: "Sunflower", season: "Any", expectedYield: "8 quintals", waterPerAcre: 12000, fertilizer: "NPK 40 kg", instructions: "Requires sunlight" }
   ],
+  Silty: [
+    { crop: "Tomato", season: "Winter", expectedYield: "20 tons", waterPerAcre: 22000, fertilizer: "Compost 70 kg", instructions: "Frequent watering" },
+    { crop: "Brinjal", season: "Winter", expectedYield: "15 tons", waterPerAcre: 20000, fertilizer: "NPK 50 kg", instructions: "Well-drained soil" },
+    { crop: "Wheat", season: "Rabi", expectedYield: "3 tons", waterPerAcre: 18000, fertilizer: "NPK 50 kg", instructions: "Light irrigation" },
+    { crop: "Millet", season: "Any", expectedYield: "10 quintals", waterPerAcre: 9000, fertilizer: "Organic manure", instructions: "Low water needed" }
+  ],
   Peaty: [
     { crop: "Cabbage", season: "Any", expectedYield: "10 quintals", waterPerAcre: 15000, fertilizer: "Organic manure", instructions: "Moist soil preferred" },
     { crop: "Potato", season: "Winter", expectedYield: "15 quintals", waterPerAcre: 18000, fertilizer: "Compost 50 kg", instructions: "Loose, rich soil" }
